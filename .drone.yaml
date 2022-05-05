@@ -43,6 +43,7 @@ steps:
     registry: 727869158831.dkr.ecr.us-west-2.amazonaws.com # <account_id>.dkr.ecr.us-east-1.amazonaws.com
     tags:
       - ${DRONE_SOURCE_BRANCH/\//-}-${DRONE_COMMIT_SHA:0:8}
+      - latest
   # commands:
   #   - $(aws ecr get-login --no-include-email --region us-east-1)
   when:
