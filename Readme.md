@@ -1,6 +1,6 @@
 # WishYoo Base
 
-Base container image for chantr-api and chantr-worker repositories.
+Base container image for chantr dev repositories.
 
 ## Building
 
