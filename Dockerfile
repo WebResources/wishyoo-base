@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:22.13.1-alpine
 
 ENV FFMPEG_VERSION=4.2.1
 
